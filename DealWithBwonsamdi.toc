@@ -1,9 +1,11 @@
-## Interface: 80000
+## Interface: 90001
 ## Title: A Deal with de Loa - Bwonsamdi
 ## Author: Zottelchen / Zoloa
-## Version: 8.0.1
+## Version: @project-version@
 ## Notes: You made a deal with Bwonsamdi... which means that in return he mocks you every time you die. Sounds fair, right?
 ## DefaultState: enabled
+## X-Curse-Project-ID: 301964
+## X-WoWI-ID: 25823
 
 Localization.lua
 main.lua

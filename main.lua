@@ -62,7 +62,7 @@ function dealTheDice()
   if randomLineNumber > 0 and randomLineNumber < 19 then
     character_says_loud(L["Bwonsamdi"], voicelines[randomLineNumber][1], voicelines[randomLineNumber][2])
   elseif randomLineNumber == 19 then
-    if IsQuestFlaggedCompleted(47250) then
+    if C_QuestLog.IsQuestFlaggedCompleted(47250) then
       randomLineNumber = math.random(1, 2)
       character_says_loud(L["Bwonsamdi"], special_voicelines[randomLineNumber][1], special_voicelines[randomLineNumber][2])
     else
