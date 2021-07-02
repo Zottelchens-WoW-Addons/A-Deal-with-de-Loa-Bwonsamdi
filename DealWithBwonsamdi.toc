@@ -1,4 +1,4 @@
-## Interface: 90002
+## Interface: 90100
 ## Title: A Deal with de Loa - Bwonsamdi
 ## Author: Zottelchen / Zoloa
 ## Version: @project-version@
@@ -6,6 +6,7 @@
 ## DefaultState: enabled
 ## X-Curse-Project-ID: 301964
 ## X-WoWI-ID: 25823
+## X-Wago-ID: ZQ6a976W
 
 Localization.lua
 main.lua
