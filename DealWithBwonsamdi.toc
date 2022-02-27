@@ -1,4 +1,4 @@
-## Interface: 90105
+## Interface: 90200
 ## Title: A Deal with de Loa - Bwonsamdi
 ## Author: Zottelchen / Zoloa
 ## Version: @project-version@
