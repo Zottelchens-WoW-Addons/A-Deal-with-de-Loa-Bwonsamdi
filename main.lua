@@ -131,7 +131,7 @@ local voicelines = {
   -- CANT BE PLAYED: { weight = 10, character = "Fyrakk",     type = "say",     id = 222492, text = "HAHAHA!!" },
   { weight = 2, character = "Fyrakk",  type = "say",  id = 222437, text = "Haha! Fly away little dragons." },
   { weight = 2, character = "Fyrakk",  type = "say",  id = 222586, text = "Begone worms!" },
-  { weight = 2, character = "Fyrakk",  type = "yell", id = 222497, text = "Weak playthings of the titans! Burn!" },
+  -- CANT BE PLAYED: { weight = 2, character = "Fyrakk",  type = "yell", id = 222497, text = "Weak playthings of the titans! Burn!" },
   -- CANT BE PLAYED: { weight = 10, character = "Raszageth", type = "yell",    id = 202099, text = "Your end was inevitable." },
   -- CANT BE PLAYED: { weight = 10, character = "Raszageth", type = "yell",    id = 202015, text = "Ruin! Ruin!" },
   -- CANT BE PLAYED: { weight = 10, character = "Raszageth", type = "yell",    id = 202014, text = "Nothing will be left standing!" },
