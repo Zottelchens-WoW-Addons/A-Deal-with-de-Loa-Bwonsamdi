@@ -7,14 +7,14 @@ f:RegisterEvent("PLAYER_DEAD");
 local voicelines = {
   -- bwonsamdi
   {
-    weight = 10,
+    weight = 20,
     character = "Bwonsamdi",
     type = "say",
     id = 94633,
     text = "What you be doin' here, mon? It not your time to pass on... yet."
   },
   {
-    weight = 10,
+    weight = 20,
     character = "Bwonsamdi",
     type = "say",
     id = 98420,
@@ -22,86 +22,86 @@ local voicelines = {
   },
   { weight = 10, character = "Bwonsamdi", type = "say", id = 98423, text = "Well look at you! Da mighty hero... ha!" },
   {
-    weight = 10,
+    weight = 20,
     character = "Bwonsamdi",
     type = "say",
     id = 98424,
     text = "So... what brings you to visit lonely old Bwonsamdi?"
   },
   {
-    weight = 10,
+    weight = 20,
     character = "Bwonsamdi",
     type = "say",
     id = 98426,
     text = "Hello, hello. You're gonna make a deal, eh?"
   },
   {
-    weight = 10,
+    weight = 20,
     character = "Bwonsamdi",
     type = "say",
     id = 98428,
     text = "Hm... somebody likes to play dangerous games."
   },
   {
-    weight = 10,
+    weight = 20,
     character = "Bwonsamdi",
     type = "say",
     id = 98429,
     text = "I see dead people. Yes, kinda my ting, you know."
   },
   {
-    weight = 10,
+    weight = 20,
     character = "Bwonsamdi",
     type = "say",
     id = 98430,
     text = "Ya lookin' a little thirsty. You wanna drink? How about a ZOMBIE!"
   },
-  { weight = 10, character = "Bwonsamdi", type = "say", id = 98431, text = "Sooner or later, everyone comes to me." },
-  { weight = 10, character = "Bwonsamdi", type = "say", id = 98433, text = "See ya soon. Real soon..." },
+  { weight = 20, character = "Bwonsamdi", type = "say", id = 98431, text = "Sooner or later, everyone comes to me." },
+  { weight = 20, character = "Bwonsamdi", type = "say", id = 98433, text = "See ya soon. Real soon..." },
   {
-    weight = 10,
+    weight = 20,
     character = "Bwonsamdi",
     type = "say",
     id = 109290,
     text = "Run along, mon. Bwonsamdi be watchin you."
   },
   {
-    weight = 10,
+    weight = 20,
     character = "Bwonsamdi",
     type = "say",
     id = 113239,
     text = "Be of you. Ain't nottin for ya here now."
   },
-  { weight = 10, character = "Bwonsamdi", type = "say", id = 109293, text = "Let me guess... ya got in over ya head?" },
+  { weight = 20, character = "Bwonsamdi", type = "say", id = 109293, text = "Let me guess... ya got in over ya head?" },
   {
-    weight = 10,
+    weight = 20,
     character = "Bwonsamdi",
     type = "say",
     id = 109294,
     text = "Tsk, tsk. I did not expect ta be seein' you here so soon."
   },
   {
-    weight = 10,
+    weight = 20,
     character = "Bwonsamdi",
     type = "say",
     id = 109295,
     text = "Oh, poor little thing, ya be needin' some help from old Bwonsamdi?"
   },
   {
-    weight = 10,
+    weight = 20,
     character = "Bwonsamdi",
     type = "say",
     id = 109296,
     text = "Hihihi! Now dat was an impressive death!"
   },
   {
-    weight = 10,
+    weight = 20,
     character = "Bwonsamdi",
     type = "say",
     id = 109297,
     text = "Ah, ya come ta spend some time with Bwonsamdi?"
   },
-  { weight = 10, character = "Bwonsamdi", type = "say", id = 98425,  text = "What ya be asking of death?" },
+  { weight = 20, character = "Bwonsamdi", type = "say", id = 98425,  text = "What ya be asking of death?" },
   -- eastereggs
   {
     weight = 1,
@@ -147,14 +147,14 @@ local voicelines = {
 -- add Quest specific voicelines
 if C_QuestLog.IsQuestFlaggedCompleted(47250) then
   voicelines[#voicelines + 1] = {
-    weight = 10,
+    weight = 20,
     character = "Bwonsamdi",
     type = "say",
     id = 109291,
     text = "Ya tink I let ya die, while you still owe me?"
   }
   voicelines[#voicelines + 1] = {
-    weight = 10,
+    weight = 20,
     character = "Bwonsamdi",
     type = "say",
     id = 98421,
@@ -169,7 +169,7 @@ local function add_class_voicelines(playerclass)
   end
   if playerclass == "WARRIOR" then
     voicelines[#voicelines + 1] = {
-      weight = 10,
+      weight = 20,
       character = "Bwonsamdi",
       type = "say",
       id = 109308,
@@ -177,7 +177,7 @@ local function add_class_voicelines(playerclass)
     }
   elseif playerclass == "PALADIN" then
     voicelines[#voicelines + 1] = {
-      weight = 10,
+      weight = 20,
       character = "Bwonsamdi",
       type = "say",
       id = 109304,
@@ -185,7 +185,7 @@ local function add_class_voicelines(playerclass)
     }
   elseif playerclass == "HUNTER" then
     voicelines[#voicelines + 1] = {
-      weight = 10,
+      weight = 20,
       character = "Bwonsamdi",
       type = "say",
       id = 109301,
@@ -193,7 +193,7 @@ local function add_class_voicelines(playerclass)
     }
   elseif playerclass == "ROGUE" then
     voicelines[#voicelines + 1] = {
-      weight = 10,
+      weight = 20,
       character = "Bwonsamdi",
       type = "say",
       id = 109305,
@@ -201,7 +201,7 @@ local function add_class_voicelines(playerclass)
     }
   elseif playerclass == "PRIEST" then
     voicelines[#voicelines + 1] = {
-      weight = 10,
+      weight = 20,
       character = "Bwonsamdi",
       type = "say",
       id = 98414,
@@ -209,7 +209,7 @@ local function add_class_voicelines(playerclass)
     }
   elseif playerclass == "DEATHKNIGHT" then
     voicelines[#voicelines + 1] = {
-      weight = 10,
+      weight = 20,
       character = "Bwonsamdi",
       type = "say",
       id = 109298,
@@ -217,7 +217,7 @@ local function add_class_voicelines(playerclass)
     }
   elseif playerclass == "SHAMAN" then
     voicelines[#voicelines + 1] = {
-      weight = 10,
+      weight = 20,
       character = "Bwonsamdi",
       type = "say",
       id = 109306,
@@ -225,7 +225,7 @@ local function add_class_voicelines(playerclass)
     }
   elseif playerclass == "MAGE" then
     voicelines[#voicelines + 1] = {
-      weight = 10,
+      weight = 20,
       character = "Bwonsamdi",
       type = "say",
       id = 109302,
@@ -233,7 +233,7 @@ local function add_class_voicelines(playerclass)
     }
   elseif playerclass == "WARLOCK" then
     voicelines[#voicelines + 1] = {
-      weight = 10,
+      weight = 20,
       character = "Bwonsamdi",
       type = "say",
       id = 109307,
@@ -241,7 +241,7 @@ local function add_class_voicelines(playerclass)
     }
   elseif playerclass == "MONK" then
     voicelines[#voicelines + 1] = {
-      weight = 10,
+      weight = 20,
       character = "Bwonsamdi",
       type = "say",
       id = 109303,
@@ -249,7 +249,7 @@ local function add_class_voicelines(playerclass)
     }
   elseif playerclass == "DRUID" then
     voicelines[#voicelines + 1] = {
-      weight = 10,
+      weight = 20,
       character = "Bwonsamdi",
       type = "say",
       id = 109300,
@@ -257,7 +257,7 @@ local function add_class_voicelines(playerclass)
     }
   elseif playerclass == "DEMONHUNTER" then
     voicelines[#voicelines + 1] = {
-      weight = 10,
+      weight = 20,
       character = "Bwonsamdi",
       type = "say",
       id = 109299,
