@@ -1,4 +1,4 @@
-## Interface: 100206
+## Interface: 110000
 ## Title: A Deal with de Loa - Bwonsamdi
 ## Author: Zottelchen / Zoloa
 ## Version: @project-version@
